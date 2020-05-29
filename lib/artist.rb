@@ -1,4 +1,4 @@
 class Artist
 
-  attr_accessor :name, :songs, :add_song, :add_song_by_name, :song_count
+  attr_accessor :new, :name, :songs, :add_song, :add_song_by_name, :song_count
 end
