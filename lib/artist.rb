@@ -1,7 +1,8 @@
+require 'pry'
 class Artist
 
   attr_accessor :name, :songs
-
+binding.pry
   @@song_count = 0
 
   def initialize(name)
